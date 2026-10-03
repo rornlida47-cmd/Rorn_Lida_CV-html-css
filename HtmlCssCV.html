@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rorn Lida - Resume</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            color: #000000;
+            background-color: #ffffff;
+            line-height: 1.5;
+            padding: 20px;
+        }
+
+        .resume-container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            padding: 40px;
+            box-shadow: 0 0 10px rgb(247, 245, 246);
+        }
+
+        /* Header Layout */
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            border-bottom: 2px solid #ffffff;
+            padding-bottom: 20px;
+            margin-bottom: 1px;
+        }
+
+        .header-text h1 {
+            font-size: 28px;
+            color: #000000;
+            margin-bottom: 2px;
+        }
+
+        .header-text h2 {
+            font-size: 16px;
+            color: #006b0e;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .contact-info {
+            font-size: 14px;
+            color: #000000;
+            line-height: 1.4;
+        }
+
+        .profile-photo {
+            width: 120px;
+            height: 160px;
+            object-fit: cover;
+            border: 1px solid #ffffff;
+        }
+
+        /* Section Styling */
+        .section {
+            margin-bottom: 22px;
+        }
+
+        .section-title {
+            font-size: 16px;
+            text-transform: uppercase;
+            font-weight: bold;
+            color: #006b0e;
+            border-bottom: 1px solid #dddddd;
+            padding-bottom: 4px;
+            margin-bottom: 10px;
+        }
+
+        /* Entry & Content Styling */
+        .entry {
+            margin-bottom: 12px;
+        }
+
+        .entry-header {
+            display: flex;
+            justify-content: space-between;
+            font-weight: bold;
+            font-size: 16px;
+            color: #9747a7;
+            margin-bottom: 4px;
+        }
+
+        .entry-subtitle {
+            font-style: italic;
+            font-size: 15px;
+            color: #1f033f;
+            margin-bottom: 6px;
+        }
+
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+            font-size: 14px;
+        }
+
+        li {
+            margin-bottom: 4px;
+        }
+
+        p {
+            font-size: 14px;
+        }
+
+        /* Footer */
+        .footer {
+            margin-top: 30px;
+            text-align: center;
+            font-size: 12px;
+            color: #000000;
+            border-top: 1px solid #eeeeee;
+            padding-top: 15px;
+        }
+
+        /* Print Settings */
+        @media print {
+            body {
+                background-color: #ffffff;
+                padding: 0;
+            }
+            .resume-container {
+                box-shadow: none;
+                padding: 0;
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="resume-container">
+        <!-- Header Section -->
+        <header class="header">
+            <div class="header-text">
+                <h1>Rorn Lida</h1>
+                <h2>Junior Frontend Developer</h2>
+                <div class="contact-info">
+                    #E1, St.1003<br>
+                    Phnom Penh Thmey,<br>
+                    Sensok, Phnom Penh, Cambodia<br>
+                    067 230 395<br>
+                    rorn.lida.1224@rupp.edu.kh
+                </div>
+            </div>
+            <img src="photo_2026-09-24_00-06-12.jpg" alt="Rorn Lida" class="profile-photo">
+        </header>
+
+        <!-- Skills Section -->
+        <section class="section">
+            <h3 class="section-title">Skills</h3>
+            <p>Basic Java, C, C++, Python and SQL database fundamentals, HTML, CSS, JavaScript, Microsoft Word, Excel, PowerPoint, and basic cloud computing knowledge.</p>
+        </section>
+
+        <!-- Education Section -->
+        <section class="section">
+            <h3 class="section-title">Education</h3>
+            
+            <div class="entry">
+                <div class="entry-header">
+                    <span>RUPP, Phnom Penh - Bachelor of Science in Computer Science</span>
+                    <span>2024 - Present</span>
+                </div>
+                <ul>
+                    <li>Certifications: HCIA-Cloud Computing v5.5 - Huawei Academy (2025-2026)</li>
+                    <li>Certifications: HCIA-Datacom V1.0 - Huawei Academy (2025-2026)</li>
+                    <li>Certifications: CCNA: Introduction to Networking - Cisco Networking Academy (2025-2026)</li>
+                </ul>
+            </div>
+
+            <div class="entry">
+                <div class="entry-header">
+                    <span>Graduated from Kor High School, Kompong Cham - High School Diploma</span>
+                    <span>2021 - 2024</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section class="section">
+            <h3 class="section-title">Experience</h3>
+            
+            <div class="entry">
+                <div class="entry-header">
+                    <span>Arduino Self Driving with obstacle avoidance Project</span>
+                    <span>2024 - 2025</span>
+                </div>
+                <div class="entry-subtitle">Computer Architecture Course</div>
+                <ul>
+                    <li><strong>Technical Skills:</strong> C/C++ embedded programming, circuit wiring, and sensor-motor integration.</li>
+                    <li><strong>Robotics Concepts:</strong> Hands-on experience with autonomous control loops and system debugging.</li>
+                </ul>
+            </div>
+
+            <div class="entry">
+                <div class="entry-header">
+                    <span>Employee Management System project</span>
+                    <span>2025 - 2026</span>
+                </div>
+                <div class="entry-subtitle">Information System Development Course</div>
+                <ul>
+                    <li><strong>Technical Skills:</strong> C/C++ programming, database design, and user interface development.</li>
+                    <li><strong>Project Management:</strong> Experience in planning, executing, and delivering software projects on time.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Languages Section -->
+        <section class="section">
+            <h3 class="section-title">Languages</h3>
+            <ul>
+                <li><strong>Khmer:</strong> Mother tongue</li>
+                <li><strong>English:</strong> Good (Focusing on Academic Reading and Writing)</li>
+            </ul>
+        </section>
+
+        <!-- Other Skills Section -->
+        <section class="section">
+            <h3 class="section-title">Other Skills</h3>
+            <ul>
+                <li>Honest and trustworthy</li>
+                <li>Good communication skills</li>
+                <li>Strong problem-solving abilities</li>
+                <li>Ability to work well under pressure</li>
+            </ul>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            &copy; 2026 Rorn Lida. All rights reserved.
+        </footer>
+    </div>
+
+</body>
+</html>
